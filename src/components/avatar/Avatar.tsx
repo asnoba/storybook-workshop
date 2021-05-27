@@ -9,8 +9,11 @@ export interface IProps {
   user: IUser;
 }
 
-const getInitials = (fullName: string) => {
-  return fullName.split(' ').map((namePart) => namePart.charAt(0).toString());
+const getInitials = (fullName: string): string => {
+  return fullName
+    .split(' ')
+    .map((namePart) => namePart.charAt(0))
+    .join('');
 };
 
 /**
