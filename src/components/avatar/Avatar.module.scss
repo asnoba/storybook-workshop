@@ -1,0 +1,51 @@
+.base {
+  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  border-color: #000;
+  border-style: groove;
+  border-radius: 50%;
+  background-color: #ff9;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.photo {
+  border-radius: 50%;
+}
+
+.small {
+  font-size: 11px;
+  border-width: 1px;
+  width: 36px;
+  height: 36px;
+
+  .photo {
+    width: 36px;
+    height: 36px;
+  }
+}
+
+.medium {
+  font-size: 13px;
+  border-width: 2px;
+  width: 48px;
+  height: 48px;
+
+  .photo {
+    width: 48px;
+    height: 48px;
+  }
+}
+
+.large {
+  font-size: 16px;
+  border-width: 3px;
+  width: 60px;
+  height: 60px;
+
+  .photo {
+    width: 60px;
+    height: 60px;
+  }
+}
